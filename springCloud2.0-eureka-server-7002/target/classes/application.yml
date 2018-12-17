@@ -1,0 +1,20 @@
+#端口号
+ server:
+   port: 7002
+
+ eureka:
+   instance:
+     hostname: eurekaServer7002.com       #本机地址
+   client:
+     serviceUrl:
+        #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+        defaultZone: http://eurekaServer7001.com:7001/eureka/           #集群之间相互注册
+     register-with-eureka: true    #因为自己是服务中心，不需要注册自己
+     fetch-registry: true          #因为自己是服务中心，不需要检索服务
+
+ spring:
+   application:
+     name: eureka-server            #服务名，集群情况下服务名需一致
+
+
+
