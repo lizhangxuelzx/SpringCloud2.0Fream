@@ -1,0 +1,27 @@
+#端口号
+ server:
+   port: 8010
+#   tomcat:
+#     max-threads: 10
+#     max-connections: 10
+
+ spring:
+   application:
+     name: springcloud-order
+ eureka:
+   client:
+     serviceUrl:
+       defaultZone: http://127.0.0.1:7001/eureka #,http://127.0.0.1:7002/eureka  #注册到eureka上面的地址
+   instance:
+     instance-id: springcloud-order-8010           #页面上显示的服务名称
+     ip-address: true                               #鼠标放在服务名上坐下角显示ip
+
+###开启Hystrix断路器
+ feign:
+   hystrix:
+     enabled: true
+
+
+
+
+
