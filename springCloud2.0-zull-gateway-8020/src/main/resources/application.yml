@@ -1,0 +1,27 @@
+###服务注册地址
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7001/eureka/
+###api网关端口号
+server:
+  port: 8020
+###网关名称
+spring:
+  application:
+    name: service-zuul
+  cloud:
+    config:
+    ####读取后缀
+      profile: dev
+      ####读取config-server注册地址
+      discovery:
+        service-id: config-server
+        enabled: true
+
+###开启所有监控中心接口
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
