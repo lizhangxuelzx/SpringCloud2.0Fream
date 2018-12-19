@@ -8,6 +8,12 @@
  spring:
    application:
      name: springcloud-order
+   cloud:
+     config:
+       profile: dev      #获取环境后缀（服务名称-环境名：springcloud-order-dev）
+       discovery:
+         service-id: config-server     #读取configserver注册地址
+         enabled: true
  eureka:
    client:
      serviceUrl:
@@ -20,6 +26,16 @@
  feign:
    hystrix:
      enabled: true
+###引入actuator依赖
+###配置开启监控断点
+###对configclient获取远程服务器的配置信息进行[手动刷新]，类上须加@RefreshScope
+###http://127.0.0.1:8010/actuator/refresh
+ management:
+   endpoints:
+     web:
+       exposure:
+         include: "*"
+
 
 
 

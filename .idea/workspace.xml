@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf14542e-15c4-4b2f-a308-7b522f258541" name="Default" comment="" />
+    <list default="true" id="cf14542e-15c4-4b2f-a308-7b522f258541" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springCloud2.0-parent/pom.xml" afterPath="$PROJECT_DIR$/springCloud2.0-parent/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springCloud2.0-parent/springCloud2.0-common/springCloud2.0-common.iml" afterPath="$PROJECT_DIR$/springCloud2.0-parent/springCloud2.0-common/springCloud2.0-common.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springCloud2.0-parent/springCloud2.0-member-8001/springCloud2.0-member-8001.iml" afterPath="$PROJECT_DIR$/springCloud2.0-parent/springCloud2.0-member-8001/springCloud2.0-member-8001.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springCloud2.0-parent/springCloud2.0-member-8001/src/main/java/com/lizx/springcloud/controller/FristMemberController.java" afterPath="$PROJECT_DIR$/springCloud2.0-parent/springCloud2.0-member-8001/src/main/java/com/lizx/springcloud/controller/FristMemberController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springCloud2.0-parent/springCloud2.0-member-8002/springCloud2.0-member-8002.iml" afterPath="$PROJECT_DIR$/springCloud2.0-parent/springCloud2.0-member-8002/springCloud2.0-member-8002.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springCloud2.0-parent/springCloud2.0-member-8002/src/main/java/com/lizx/springcloud/controller/FristMemberController.java" afterPath="$PROJECT_DIR$/springCloud2.0-parent/springCloud2.0-member-8002/src/main/java/com/lizx/springcloud/controller/FristMemberController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springCloud2.0-parent/springCloud2.0-order-8010/springCloud2.0-order-8010.iml" afterPath="$PROJECT_DIR$/springCloud2.0-parent/springCloud2.0-order-8010/springCloud2.0-order-8010.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springCloud2.0-parent/springCloud2.0-order-8010/src/main/java/com/lizx/springcloud/AppOrder8010.java" afterPath="$PROJECT_DIR$/springCloud2.0-parent/springCloud2.0-order-8010/src/main/java/com/lizx/springcloud/AppOrder8010.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springCloud2.0-parent/springCloud2.0-parent.iml" afterPath="$PROJECT_DIR$/springCloud2.0-parent/springCloud2.0-parent.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springCloud2.0-parent/springCloud2.0-service/springCloud2.0-member-service/springCloud2.0-member-service.iml" afterPath="$PROJECT_DIR$/springCloud2.0-parent/springCloud2.0-service/springCloud2.0-member-service/springCloud2.0-member-service.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springCloud2.0-parent/springCloud2.0-service/springCloud2.0-order-service/springCloud2.0-order-service.iml" afterPath="$PROJECT_DIR$/springCloud2.0-parent/springCloud2.0-service/springCloud2.0-order-service/springCloud2.0-order-service.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springCloud2.0-parent/springCloud2.0-service/springCloud2.0-service.iml" afterPath="$PROJECT_DIR$/springCloud2.0-parent/springCloud2.0-service/springCloud2.0-service.iml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,6 +24,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -22,11 +39,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-6" />
+    <option name="y" value="1" />
+    <option name="width" value="1378" />
+    <option name="height" value="733" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -42,10 +60,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -169,14 +187,15 @@
       <updated>1544756100906</updated>
       <workItem from="1544756103851" duration="40000" />
       <workItem from="1544772059304" duration="23000" />
+      <workItem from="1545184702712" duration="63000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63000" />
+    <option name="totallyTimeSpent" value="126000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-6" y="1" width="1378" height="733" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -186,13 +205,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2784522" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />

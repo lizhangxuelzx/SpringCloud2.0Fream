@@ -19,7 +19,7 @@ public class FristMemberController extends BaseApiService {
     @RequestMapping("/orderToMember")
     public UserEntity orderToMember(){
         UserEntity userEntity = new UserEntity();
-        userEntity.setName("0000000"+serverPort);
+        userEntity.setName("会员服务端口："+serverPort);
         userEntity.setAge(10);
         System.out.println("会员服务调用成功》》》》》》》》》》》》》》》》");
         return userEntity;
