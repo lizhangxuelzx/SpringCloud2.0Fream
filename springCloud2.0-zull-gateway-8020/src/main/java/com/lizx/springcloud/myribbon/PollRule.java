@@ -1,4 +1,4 @@
-package com.lizx.springcloud.ribbonRule;
+package com.lizx.springcloud.myribbon;
 
 import com.netflix.client.config.IClientConfig;
 import com.netflix.loadbalancer.AbstractLoadBalancerRule;

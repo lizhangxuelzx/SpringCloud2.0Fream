@@ -1,4 +1,4 @@
-package com.lizx.springcloud.ribbonRule;
+package com.lizx.springcloud.myribbon;
 
 import com.netflix.loadbalancer.IRule;
 import org.springframework.context.annotation.Bean;
