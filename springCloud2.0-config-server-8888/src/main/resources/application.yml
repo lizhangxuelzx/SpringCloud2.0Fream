@@ -1,0 +1,25 @@
+###服务注册到eureka地址
+eureka:
+  client:
+    service-url:
+           defaultZone: http://localhost:7001/eureka
+spring:
+  application:
+    ####注册中心应用名称
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          ###gitee环境地址,码云地址
+          uri: https://gitee.com/lizhangxuelzx/config.git
+          ####搜索目录
+          search-paths:
+            - config
+      ####读取分支
+      label: master
+####端口号
+#Config Client启动时，都默认会去访问 Server 的 8888 端口
+#Config Client最好使用bootstrap.yml
+server:
+  port: 8888
