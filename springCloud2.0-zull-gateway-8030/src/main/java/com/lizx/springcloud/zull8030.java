@@ -10,21 +10,18 @@ import org.springframework.cloud.netflix.ribbon.RibbonClient;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 import org.springframework.cloud.netflix.zuul.filters.ZuulProperties;
 
-import java.beans.ConstructorProperties;
-
 /**
  * Created by lzx on 2018-12-19.
  */
 @SpringBootApplication
 @EnableEurekaClient
 @EnableZuulProxy
-//1、负载均衡之前在order服务中实现，加入网关后实现在zuul上
-//2、实现nginx+zuul集群后，Ribbon自定义算法失效，还未解决
+//负载均衡之前在order服务中实现，加入网关后实现在zuul上
 @RibbonClient(name = "SPRINGCLOUD-MEMBER", configuration = MyRibbonRule.class)
-public class zull8020 {
+public class zull8030 {
 
     public static void main(String[] args) {
-        SpringApplication.run(zull8020.class,args);
+        SpringApplication.run(zull8030.class,args);
     }
 
     // zuul配置能够使用config实现实时更新

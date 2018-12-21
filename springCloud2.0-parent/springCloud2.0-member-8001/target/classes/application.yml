@@ -5,6 +5,13 @@
  spring:
    application:
      name: springcloud-member
+   cloud:
+     config:
+       profile: dev
+       discovery:
+         service-id: config-server
+         enabled: true
+
  eureka:
    client:
      serviceUrl:
@@ -12,6 +19,14 @@
    instance:
      instance-id: springcloud-member-8001           #页面上显示的服务名称
      ip-address: true                               #鼠标放在服务名上坐下角显示ip
+
+#刷新接口http://127.0.0.1:8888/ actuator/ bus-refresh
+##开启消息总线
+# management:
+#   endpoints:
+#     web:
+#       exposure:
+#         include: bus-refresh
 
 
 
