@@ -1,14 +1,13 @@
 package com.lizx.springcloud.filter;
 
-import javax.servlet.http.HttpServletRequest;
-
+import com.netflix.zuul.ZuulFilter;
+import com.netflix.zuul.context.RequestContext;
+import com.netflix.zuul.exception.ZuulException;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-import com.netflix.zuul.ZuulFilter;
-import com.netflix.zuul.context.RequestContext;
-import com.netflix.zuul.exception.ZuulException;
+import javax.servlet.http.HttpServletRequest;
 
 @Component
 public class TokenFilter extends ZuulFilter {
@@ -31,13 +30,13 @@ public class TokenFilter extends ZuulFilter {
 		// 否则正常执行业务逻辑.....
 		return null;
 	}
-	String ss = "";
+
 	// 判断过滤器是否生效
 	public boolean shouldFilter() {
 
 		return true;
 	}
-	String s1="";
+
 	// 过滤器的执行顺序。当请求在一个阶段的时候存在多个多个过滤器时，需要根据该方法的返回值依次执行
 	public int filterOrder() {
 
