@@ -32,7 +32,7 @@ public class TokenFilter extends ZuulFilter {
 
 		return true;
 	}
-
+	String s1="";
 	// 过滤器的执行顺序。当请求在一个阶段的时候存在多个多个过滤器时，需要根据该方法的返回值依次执行
 	public int filterOrder() {
 
