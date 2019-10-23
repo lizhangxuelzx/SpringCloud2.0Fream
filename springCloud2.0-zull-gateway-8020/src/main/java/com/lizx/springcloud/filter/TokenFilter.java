@@ -31,7 +31,7 @@ public class TokenFilter extends ZuulFilter {
 		// 否则正常执行业务逻辑.....
 		return null;
 	}
-
+	String ss = "";
 	// 判断过滤器是否生效
 	public boolean shouldFilter() {
 
