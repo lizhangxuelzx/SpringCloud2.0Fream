@@ -16,4 +16,5 @@ public class MyRibbonRule {
         return new PollRule();
     }
     String ss ="";
+    String sq ="";
 }
