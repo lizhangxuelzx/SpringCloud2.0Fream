@@ -27,6 +27,7 @@ public class TokenFilter extends ZuulFilter {
 		return null;
 	}
 	String ss = "";
+	String ss1 = "";
 	// 判断过滤器是否生效
 	public boolean shouldFilter() {
 
