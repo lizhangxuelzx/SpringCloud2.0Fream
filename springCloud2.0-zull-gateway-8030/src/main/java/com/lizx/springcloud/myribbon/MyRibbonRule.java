@@ -15,6 +15,4 @@ public class MyRibbonRule {
     public IRule myRule(){
         return new PollRule();
     }
-    String ss ="";
-    String sq ="";
 }

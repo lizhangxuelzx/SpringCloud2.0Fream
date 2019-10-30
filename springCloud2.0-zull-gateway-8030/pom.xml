@@ -5,8 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.lizx</groupId>
-    <artifactId>springCloud2.0-config-server-8020</artifactId>
+    <artifactId>springCloud2.0-zull-gateway-8030</artifactId>
     <version>1.0-SNAPSHOT</version>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -25,15 +26,20 @@
         </dependencies>
     </dependencyManagement>
     <dependencies>
-        <!--spring-cloud 整合 config-server -->
+        <!--zull-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-config-server</artifactId>
+            <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
         </dependency>
         <!-- SpringBoot整合eureka客户端 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-config-client</artifactId>
         </dependency>
         <!-- actuator监控中心 -->
         <dependency>
@@ -52,5 +58,4 @@
             </snapshots>
         </repository>
     </repositories>
-
 </project>
