@@ -22,7 +22,7 @@ public class BaseApiService {
 	}
 
 	// 返回成功，沒有data值
-	public ResponseBase setResultSuccess111(String msg,int sss) {
+	public ResponseBase setResultSuccess111222(String msg,int sss) {
 		return setResult(200, msg, null);
 	}
 
